@@ -11,9 +11,9 @@ jobs:
   build_and_test:
     name: Rusty LTL
     runs-on: 
-		- ubuntu-latest
-		- windows-latest
-		- macOS-latest
+	- ubuntu-latest
+	- windows-latest
+	- macOS-latest
     strategy:
       matrix:
         toolchain:

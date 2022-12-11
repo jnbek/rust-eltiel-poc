@@ -9,3 +9,14 @@ edition = "2021"
 rust_lisp = "0.16.1"
 molt-ng = "0.3.2"
 mlua = { version = "0.4", features = ["vendored","luajit"] }
+
+
+[lib]
+name = "libeltiel"
+path = "src/lib/lib.rs"
+crate-type = ["dylib","rlib"]
+
+[[bin]]
+name = "ltl-repl"
+path = "src/bin/ltl-repl.rs"
+

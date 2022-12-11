@@ -1,0 +1,11 @@
+[package]
+name = "rust-eltiel"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust_lisp = "0.16.1"
+molt-ng = "0.3.2"
+mlua = { version = "0.4", features = ["vendored","luajit"] }

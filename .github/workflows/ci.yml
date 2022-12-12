@@ -1,4 +1,4 @@
-name: Cargo Build & Test Rusty LJLT and libeljlt
+name: Rusty LJLT and libeljlt
 
 on:
   push:
@@ -9,11 +9,8 @@ env:
 
 jobs:
   build_and_test:
-    name: Rusty LTL
-    runs-on: 
-      - ubuntu-latest
-      - windows-latest
-      - macOS-latest
+    name: Rusty LJLT and libeljlt
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         toolchain:

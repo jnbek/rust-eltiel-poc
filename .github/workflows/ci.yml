@@ -13,6 +13,7 @@ jobs:
     runs-on: 
       - ubuntu-latest
       - windows-latest
+      - macOS-latest
     strategy:
       matrix:
         toolchain:

@@ -1,4 +1,4 @@
-name: Cargo Build & Test Rusty LTL and libeltitl
+name: Cargo Build & Test Rusty LJLT and libeljlt
 
 on:
   push:

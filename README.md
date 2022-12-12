@@ -1,6 +1,8 @@
 Rust eL Ti eL: LTL
 Embedding Lua, TCL and Lisp into Rust because why not?
 
+[![Rusty LJLT and libeljlt](https://github.com/jnbek/rust-eltiel-poc/actions/workflows/ci.yml/badge.svg)](https://github.com/jnbek/rust-eltiel-poc/actions/workflows/ci.yml)
+
 We'll see how far this goes, since I don't like to start what I finish...
 
 Proof of Concept:
